@@ -4,22 +4,16 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 header, footer {
-  background-color: #4CAF50;
+  background-color: #808000; /* Verde oliva para el fondo */
   color: white;
   padding: 10px 20px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 nav {
   margin-bottom: 20px;
-  text-align: center;
 }
 
 nav ul {
@@ -34,16 +28,16 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #b5b35c; /* Un tono más claro de verde oliva para los enlaces */
 }
 
 .container {
   width: 80%;
-  max-width: 1200px; /* Añade un ancho máximo para evitar que el contenedor sea demasiado ancho en pantallas grandes */
+  margin: auto;
 }
 
 .card {
-  background-color: #f2f2f2;
+  background-color: #b5b35c; /* Un tono más claro de verde oliva para las tarjetas */
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -54,7 +48,7 @@ nav a {
 #profesores {
   background-image: url('images/profesores-bg.jpg');
   background-size: cover;
-  color: #216d43;
+  color: #333;
 }
 
 #contacto {
