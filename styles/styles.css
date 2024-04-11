@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilos específicos para secciones */
+  #profesores {
+    background-image: url('images/profesores-bg.jpg');
+    background-size: cover;
+    color: #333;
+  }
+  
+  #contacto {
+    background-color: #fff;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  /* Media queries para responsividad */
+  @media (max-width: 768px) {
+    .container, header, footer {
+      width: 95%;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  
